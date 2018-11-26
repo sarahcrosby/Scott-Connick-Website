@@ -42,4 +42,5 @@ I also wanted to implement the following user stories:
 1. Initial commit. Implemented Bootstrap template and library, to show separation of code. Started editing text.
 2. Started README.md. 
 3. Updated vulnerable dependencies.
-4. 
+4. Updated vulnerable dependencies.
+5. 
