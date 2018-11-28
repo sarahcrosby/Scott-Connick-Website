@@ -1,9 +1,148 @@
+/*Colour Scheme*/
+
+hr {
+    border-color: #F21651;
+}
+
+.custom-bg {
+    background-color: #F21651!important;
+}
+
+/*Text*/
+
+.standout {
+  font-weight: bold;
+}
+
+.custom-link {
+    color: #000000;
+    text-decoration:none
+}
+
+.custom-link:hover {
+    color: red;
+    text-decoration:none
+}
+
+.custom-blue {
+    color: #A2D4F2;
+}
+
+/*Navigation*/
+
+ #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #A2D4F2;
+  }
+
+/*Images*/
+
+.profile-img {
+    background-image: url("../img/profile.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 25px;
+    min-height: 250px;
+    max-width: 250px;
+    
+}
+
+.logo-img {
+    background-image: url("../img/logo.jpg");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    min-height: 80px;
+    min-width: 80px;
+    
+}
+
+/*Buttons*/
+
+.btn-hit {
+    color: #A2D4F2;
+    background-color: #3F6ABF;
+}
+
+.btn-hit:hover {
+    color: #3F6ABF;
+    background-color: #3BD97F;
+}
+
+/*Icons*/
+
+.custom-icon {
+    color: black;
+}
+
+
+/*Home*/
+
+.custom-header-container {
+    background-color: #000000;
+}
+
+.custom-header {
+    margin-top: 45%;
+}
+
+
+/*About*/
+
+.profile-wrapper {
+    max-height: 25%;
+    margin: 25px;
+}
+
+
+/*Connect*/
+
+#connect {
+    background-color: #73162f;
+}
+
+/*Portfolio*/
+
+.portfolio-box .portfolio-box-caption {
+    background: #F21651!important;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 0.7!important;
+}
+
+.img-fluid {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+
+.custom-portfolio-box {
+    
+}
+
+
+
+/*Portfolio More*/
+
+.bg-dark {
+    background-color: #73162F!important;
+}
+
+/*Contact*/
+
+#contact {
+    background-color: #90c5ec;
+}
+
 /*Media queries*/
 
 @media all and (min-width: 766px) {
     /* For larger screens, such as laptops and desktops */
     
-
+    .custom-header-container {
+        min-height: 900px;
+    }
 
 }
 
@@ -49,40 +188,9 @@
     .custom-header-container {
         min-height: 700px;
     }
-}
-
-
-/*Text*/
-
-.standout {
-  font-weight: bold;
-}
-
-.custom-link {
-    color: black;
-    text-decoration:none
-}
-
-.custom-link:hover {
-    color: red;
-    text-decoration:none
-}
-
-/*Buttons*/
-
-/*Icons*/
-
-.custom-icon {
-    color: black;
-}
-
-
-/*Home*/
-
-.custom-header-container {
-    background-color: #000000;
-}
-
-.custom-header {
-    margin-top: 45%;
+    
+    .profile-img {
+        max-height: 20%;
+        margin: 15px;
+    }
 }
