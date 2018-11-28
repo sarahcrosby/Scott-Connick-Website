@@ -27,6 +27,8 @@ I will use a Bootstrap template, which will make the website as responsive and v
 
 I chose this particular template because it is a single scrolling page, and I believe it is well tailored for the creative industry. The website source can be found here: https://startbootstrap.com/template-overviews/creative/
 
+I included CSS3 media queries to enhance the user's experience on different screen sizes. I extensively tested this, by using the emulator in developer tools, and also by maually testing the website on my various devices (mobile, tablet, laptop, larger second screen), and also on my friend's devices. 
+
 Colour scheme
 
 I also wanted to implement the following user stories:
@@ -36,6 +38,14 @@ I also wanted to implement the following user stories:
 * Gallery - this includes photos and video clips, and will showcase the artist's work.
 * Social media presence - links to the artist's social media pages, so prospective clients can engage.
 
+### Deployment
+
+### Testing
+
+When making changes to my custom CSS, I opened my project in my internet browser's private mode, to ensure the CSS wasn't cached. I then opened the developer tools, and tested the changes I wanted to make before I committed them to my code. I found this easier than changing my CSS then refreshing the page, and allowed me to test different approaches.
+
+When manally testing my website on different screen sizes, I encountered a bug that changed the alignment of the header div - at a screen size of approximately 764 pixels wide, the text was not centrally aligned. To resolve this, I tried multiple methods using CSS, but they affected the smaller size screen negatively. Instead, I changed the break points of my media queries, as I was able to align everything centrally this way. If I hadn't done this, the page would have looked out of sync on certain screen sizes - and granted, this was only for a very specific screen width of between 760 and 764 pixels wide, but this would have changed the user's experience if they had this screen size, so I wanted to resolve the issue.
+
 
 ### Version Control
 
@@ -43,4 +53,4 @@ I also wanted to implement the following user stories:
 2. Started README.md. 
 3. Updated vulnerable dependencies.
 4. Updated vulnerable dependencies.
-5. 
+5. Added custom header image. Edited CSS including media queries. Added to README.

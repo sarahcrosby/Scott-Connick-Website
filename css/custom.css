@@ -1,5 +1,58 @@
-/*Text*/
+/*Media queries*/
 
+@media all and (min-width: 766px) {
+    /* For larger screens, such as laptops and desktops */
+    
+
+
+}
+
+@media all and (max-width: 765px) and (min-width: 600px) {
+    /* For medium screens, such as tablets */
+    
+    header.masthead {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+        padding-top: 0rem;
+        position: relative;
+        min-height: 800px;
+}
+    .custom-header {
+        margin-top: 25%;
+        position: absolute;
+        top: 200px;
+    }
+    
+    .custom-header-container {
+        min-height: 900px;
+    }
+}
+
+@media all and (max-width: 599px) and (min-width: 200px) {
+    /* For smaller screens, such as mobile phones */
+    
+    header.masthead {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+        padding-top: 0rem;
+        position: relative;
+        min-height: 500px;
+}
+    .custom-header {
+        margin-top: 25%;
+        position: absolute;
+        top: 175px;
+    }
+    
+    .custom-header-container {
+        min-height: 700px;
+    }
+}
+
+
+/*Text*/
 
 .standout {
   font-weight: bold;
@@ -21,4 +74,15 @@
 
 .custom-icon {
     color: black;
+}
+
+
+/*Home*/
+
+.custom-header-container {
+    background-color: #000000;
+}
+
+.custom-header {
+    margin-top: 45%;
 }
