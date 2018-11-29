@@ -29,6 +29,8 @@ I chose this particular template because it is a single scrolling page, and I be
 
 I included CSS3 media queries to enhance the user's experience on different screen sizes. I extensively tested this, by using the emulator in developer tools, and also by maually testing the website on my various devices (mobile, tablet, laptop, larger second screen), and also on my friend's devices. 
 
+How chose colour scheme. *** inc. changing it. overnight thought. https://www.rgbtohex.net/
+
 Colour scheme
 
 I also wanted to implement the following user stories:
@@ -56,3 +58,4 @@ When manally testing my website on different screen sizes, I encountered a bug t
 4. Updated vulnerable dependencies.
 5. Added custom header image. Edited CSS including media queries. Added to README.
 6. Added custom colours, images to portfolio, profile picture.
+7. Overhaul of colour scheme - changes to CSS. Personalised 'portfolio' section. Added custom logo.
