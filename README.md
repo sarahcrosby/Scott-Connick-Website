@@ -35,12 +35,21 @@ Colour scheme
 
 I also wanted to implement the following user stories:
 * As a client...
-* As the artist...
+* As a prospective client, I want to be able to make contac with the artist, by being provided with multiple methods of ccommunicatio.
+* As the artist, I want to peak interest in viewers, increase my client-base and reach more interested persons, by having a stylish wwebsit that showcases my work and provide means of communicatio.
 
 ### Features
 * Gallery - this includes photos and video clips, and will showcase the artist's work.
 * Social media presence - links to the artist's social media pages, so prospective clients can engage.
-
+* https://project-one-sarahcrosby-1.c9users.io/index.html
+* Navigation - allows users to navigate the page, so they don't have to scroll the entire site to find the part they are looking for.
+* Home - the 
+* About - an informative section about the subject of the web page. Includes a profile image.
+* Connect - allows users to connect with the artist via. social media.
+* Portfolio - showcases a selection of the artist's work, including a video.
+* Portfolio More - allows the user to access the artist's full portfolio.
+* Contact - encourages the user to make contact with the artist. 
+* 
 ### Deployment
 
 ### Testing
@@ -59,3 +68,4 @@ When manally testing my website on different screen sizes, I encountered a bug t
 5. Added custom header image. Edited CSS including media queries. Added to README.
 6. Added custom colours, images to portfolio, profile picture.
 7. Overhaul of colour scheme - changes to CSS. Personalised 'portfolio' section. Added custom logo.
+8. Added custom 'portfolio' images and a timelapse video. Edited colour scheme and style.

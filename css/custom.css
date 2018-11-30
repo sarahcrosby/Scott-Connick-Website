@@ -12,11 +12,8 @@
     background-color: #ffffff;
 }
 
-/*Text*/
 
-.standout {
-  font-weight: bold;
-}
+/*Text*/
 
 .custom-link {
     color: #000000;
@@ -72,9 +69,6 @@
     color: #ffffff;
 }
 
-/*Navigation*/
-
-
 
 /*Images*/
 
@@ -103,6 +97,18 @@
     filter: invert(1);
 }
 
+.custom-video-image {
+    -webkit-filter: invert(0);
+    filter: invert(0);
+    padding: 10px;
+}
+
+.non-invert {
+    -webkit-filter: invert(0);
+    filter: invert(0);
+}
+
+
 /*Buttons*/
 
 .btn-custom-white {
@@ -129,6 +135,7 @@
     text-shadow: 3px 3px 5px #71c3c1;
 
 }
+
 
 /*Icons*/
 
@@ -168,6 +175,7 @@
     background-color: #000000;
 }
 
+
 /*Portfolio*/
 
 .custom-portfolio-box:hover .custom-portfolio-box-caption {
@@ -179,12 +187,13 @@
     bottom: 0px;
     display: block;
     width: 100%;
-    height: 25%;
+    height: 20%;
     top: 30%;
     text-align: center;
     opacity: 0;
     background: #000000;
 }
+
 
 /*Portfolio More*/
 
@@ -192,11 +201,18 @@
     background-color: #000000;
 }
 
+.caption-timelapse {
+    top: 50%;
+    height: 20%;
+}
+
+
 /*Contact*/
 
 #contact {
     background-color: #ffffff;
 }
+
 
 /*Media queries*/
 
