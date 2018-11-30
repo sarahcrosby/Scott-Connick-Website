@@ -65,6 +65,10 @@
     color: #3f6abf!important;
 }
 
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus {
+    color: #659ce5!important;
+}
+
 .custom-portfolio-text {
     color: #ffffff;
 }
@@ -214,7 +218,7 @@
 }
 
 
-/*Media queries*/
+/*Media queries - allows custom code depending on the screen size. Used mostly to adjust the large header image, to ensure visability of the whole image on smaller screens*/
 
 @media all and (min-width: 766px) {
     /* For larger screens, such as laptops and desktops */
